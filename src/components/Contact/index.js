@@ -106,6 +106,7 @@ const ContactInputMessage = styled.textarea`
 const ContactButton = styled.input`
   width: 100%;
   text-decoration: none;
+  cursor: pointer;
   text-align: center;
   background: hsla(271, 100%, 50%, 1);
   background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
@@ -130,7 +131,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_tox7kqs', 'template_nv7k7mj', form.current, 'SybVGsYS52j2TfLbi')
+    emailjs.sendForm('service_ttvw8si', 'template_deno9xg', form.current, 'nP2m46ScHPCwe9_fi')
       .then((result) => {
         setOpen(true);
         form.current.reset();
@@ -152,7 +153,7 @@ const Contact = () => {
           <ContactInput placeholder="Your Name" name="from_name" />
           <ContactInput placeholder="Subject" name="subject" />
           <ContactInputMessage placeholder="Message" rows="4" name="message" />
-          <ContactButton type="submit" value="Send" />
+          <ContactButton type="submit" value="Send" style={{cursor : 'pointer'}}/>
         </ContactForm>
         <Snackbar
           open={open}

@@ -12,6 +12,19 @@ const Document = styled.img`
         opacity: 0.8;
     }
 `
+const DocumentButton = styled.button`
+    height: 70px;
+    width: fit-content;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    &:hover{
+        cursor: pointer;
+        opacity: 0.8;
+    }
+`
 
 const Description = styled.div`
     width: 100%;
@@ -174,11 +187,11 @@ const ExperienceCard = ({ experience }) => {
                     </>
                 }
             </Description>
-            {experience.doc &&
+            {/* {experience.doc &&
                 <a href={experience.doc} target="new">
                     <Document src={experience.doc} />
                 </a>
-            }
+            } */}
         </Card>
     )
 }
