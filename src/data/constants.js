@@ -10,7 +10,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/dhruvsaboo1805",
   resume:
-    "https://drive.google.com/file/d/1Y2ZidEweDRymwef88j4dvJWB_A5d8ZYA/view?usp=sharing",
+    "https://drive.google.com/file/d/1b6hTKYQAy_kRZxY_DyNEKShfiT2dM50G/view?usp=drivesdk",
   linkedin: "https://www.linkedin.com/in/dhruvsaboo1805",
   twitter: "https://x.com/dsaboo456",
   insta: "https://www.instagram.com/dhruv_saboo/",
