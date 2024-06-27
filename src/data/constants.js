@@ -274,7 +274,7 @@ export const projects = [
     description:
       "This food delivery web application is designed to provide users with a convenient and seamless experience when ordering food online. Built using React.js and Firebase authentication, the app offers a range of features to enhance the user experience and streamline the ordering process.",
     image:
-      "https://private-user-images.githubusercontent.com/104023753/327104686-05e2e8c6-b559-4be5-bb2f-d156c2354490.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTk0ODA2NjUsIm5iZiI6MTcxOTQ4MDM2NSwicGF0aCI6Ii8xMDQwMjM3NTMvMzI3MTA0Njg2LTA1ZTJlOGM2LWI1NTktNGJlNS1iYjJmLWQxNTZjMjM1NDQ5MC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjI3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYyN1QwOTI2MDVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02ZjAwMDNjM2FiNjI1YWExZTM0NjE3MjcyOTdiYjkzMTkzMzNiMDkxMGFkNGI0ODU2MzMzZjYxMTIwODdjZmFiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.IT2Uu1n2FNQYc-90qQZ3ksz_X6Mcgq3EjXkFMhVTkqw",
+      "https://i.ibb.co/LvmT0Tz/food.png",
     tags: [
       "React Js",
       "FireBase",
@@ -303,7 +303,7 @@ export const projects = [
     description:
       "My Discord bot serves as a convenient tool for calculating Air Quality Index (AQI) values for cities specified by users. By simply entering the name of a city, users can receive comprehensive data on AQI levels, including information such as pollutant concentrations and health implications. Furthermore, the bot provides tailored health advice based on the AQI value, offering insights into how current air quality may impact well-being. This feature enhances user awareness of environmental conditions and promotes healthier lifestyle choices in response to varying air quality levels.",
     image:
-      "https://private-user-images.githubusercontent.com/104023753/313770285-25850212-6353-4c10-90ad-0df9f406595d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTk0ODExODMsIm5iZiI6MTcxOTQ4MDg4MywicGF0aCI6Ii8xMDQwMjM3NTMvMzEzNzcwMjg1LTI1ODUwMjEyLTYzNTMtNGMxMC05MGFkLTBkZjlmNDA2NTk1ZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjI3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYyN1QwOTM0NDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01NGQ3YzQ5ZTZkNTNmYTdjZGRiMWM4MDk5YjA0YzQ2ZjM1N2Q3ZjRiZmFhMDAyYzYzOTdmZGZjNTYxNmJkMGQ3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.mSiQDIi-t9xQ-sxMvdTBHpS1wRT_WqLhC1cx_FK_9a8",
+      "https://i.ibb.co/X4s7k9j/dis.png",
     tags: ["AQI Api (from CPCB)" , "Node js",  "Express Js" , "Mongo DB" , "Discord API"],
     category: "web app",
     github: "https://github.com/dhruvsaboo1805/Discord_Bot",
