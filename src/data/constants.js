@@ -152,7 +152,7 @@ export const experiences = [
   {
     id: 0,
     img: "https://media.licdn.com/dms/image/D560BAQHbJ98jAoTBWw/company-logo_200_200/0/1705843409324/nexus_software_pvt_ltd_logo?e=2147483647&v=beta&t=iI2vHdi83aQ0RudljDp8osCtb7nVJnMBxvnyha7i_h0",
-    role: "Web Developer Intern Intern",
+    role: "Web Developer Intern",
     company: "Nexus Info",
     date: "April 2024 - May 2024",
     desc: "Working on the full Stack Projects of MERN",
