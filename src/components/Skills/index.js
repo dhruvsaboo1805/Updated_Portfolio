@@ -20,6 +20,7 @@ flex-direction: column;
 width: 100%;
 max-width: 1100px;
 gap: 12px;
+padding: 20px 0 40px 0;
 @media (max-width: 960px) {
     flex-direction: column;
 }
@@ -133,7 +134,7 @@ const Skills = () => {
               <SkillList>
                 {skill.skills.map((item) => (
                   <SkillItem>
-                    <SkillImage src={item.image}/>
+                    <SkillImage src={item.image} />
                     {item.name}
                   </SkillItem>
                 ))}

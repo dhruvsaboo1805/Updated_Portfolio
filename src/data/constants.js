@@ -23,42 +23,35 @@ export const skills = [
     skills: [
       {
         name: "React Js",
-        image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+        image: "/images/skills/react.svg",
       },
       {
         name: "Redux",
-        image:
-          "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
+        image: "/images/skills/redux2.svg",
       },
       {
         name: "HTML",
-        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+        image: "/images/skills/html5.png",
       },
       {
         name: "CSS",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+        image: "/images/skills/css3.png",
       },
       {
         name: "Tailwind",
-        image:
-          "https://w7.pngwing.com/pngs/293/485/png-transparent-tailwind-css-hd-logo.png",
+        image: "/images/skills/tailwind.svg",
       },
       {
         name: "JavaScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+        image: "/images/skills/javascript.png",
       },
       {
         name: "Bootstrap",
-        image:
-          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
+        image: "/images/skills/bootstrap.svg",
       },
       {
         name: "Flutter",
-        image:
-          "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
+        image: "/images/skills/flutter.svg",
       },
     ],
   },
@@ -66,27 +59,32 @@ export const skills = [
     title: "Backend",
     skills: [
       {
+        name: "Java",
+        image: "/images/skills/java.svg",
+      },
+      {
+        name: "Spring Boot",
+        image: "/images/skills/springboot.svg",
+      },
+      {
         name: "Node Js",
-        image: "https://nodejs.org/static/images/logo.svg",
+        image: "/images/skills/nodejs.svg",
       },
       {
         name: "Express Js",
-        image:
-          "https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png",
+        image: "/images/skills/expressjs.svg",
       },
       {
         name: "MySQL",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+        image: "/images/skills/mysql.svg",
       },
       {
         name: "MongoDB",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+        image: "/images/skills/mongodb.svg",
       },
       {
         name: "Firebase",
-        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+        image: "/images/skills/firebase.svg",
       },
     ],
   },
@@ -95,46 +93,59 @@ export const skills = [
     skills: [
       {
         name: "Git",
-        image:
-          "https://w7.pngwing.com/pngs/182/979/png-transparent-github-repository-commit-version-control-github-angle-rectangle-logo-thumbnail.png",
+        image: "/images/skills/git.svg",
       },
       {
         name: "GitHub",
-        image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+        image: "/images/skills/github.png",
       },
       {
         name: "Vercel",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkAuKrVgOa4BJxUnH4gdJ5TV0m2IFEMjLJ2g&s",
+        image: "/images/skills/vercel.svg",
       },
       {
         name: "Netlify",
-        image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+        image: "/images/skills/netlify.svg",
       },
       {
         name: "VS Code",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+        image: "/images/skills/vscode.svg",
       },
       {
         name: "Postman",
-        image:
-          "https://res.cloudinary.com/postman/image/upload/t_team_logo/v1629869194/team/2893aede23f01bfcbd2319326bc96a6ed0524eba759745ed6d73405a3a8b67a8",
+        image: "/images/skills/postman.svg",
       },
       {
         name: "Figma",
-        image:
-          "https://media.licdn.com/dms/image/C4D12AQHTWmXtImF2sw/article-cover_image-shrink_720_1280/0/1578556490672?e=2147483647&v=beta&t=GUbMSYJ4ekAJkRsZoFYWOjV7v47x0wUFZsHTFRrg5pM",
+        image: "/images/skills/figma.svg",
+      },
+      {
+        name: "Docker",
+        image: "/images/skills/docker.svg",
       },
     ],
   },
 ];
 
+
 export const experiences = [
   {
     id: 0,
+    img: "/images/skills/tcs.svg",
+    role: "Software Engineer",
+    company: "Tata Consultancy Services (TCS)",
+    date: "Aug 2025 - Present",
+    desc: "Working as a Software Engineer at TCS on the Quartz Compliance project for NHCA. Involved in system design, backend development, and CI/CD pipeline management.",
+    skills: [
+      "Java",
+      "Spring Boot",
+      "JFrog",
+      "Jenkins",
+      "System Design",
+    ],
+  },
+  {
+    id: 1,
     img: "https://media.licdn.com/dms/image/D4E0BAQGTb_vAIr6U1A/company-logo_200_200/0/1714414031837/tryidoltechnologies_logo?e=2147483647&v=beta&t=5YBWSfckL0w4SOcETsvr3LSyv4UDw9HNw8B6i1D68PA",
     role: "Web Developer Intern",
     company: "Tryidol Technologies",
@@ -209,6 +220,111 @@ export const education = [
 
 export const projects = [
   {
+    id: 100,
+    title: "Auth Microservice - Spring Boot",
+    date: "Oct 2025 - Feb 2026",
+    description:
+      "A production-grade Authentication Microservice built with Spring Boot. Fully containerized with Docker for seamless deployment. Implements JWT-based authentication, role-based access control (RBAC), OAuth2 integration, and secure token refresh mechanisms. Docker Compose setup for running the entire stack locally.",
+    image:
+      "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?w=800&auto=format&fit=crop",
+    tags: ["Java", "Spring Boot", "JWT", "Spring Security", "Microservices", "Docker", "MySQL"],
+    category: "backend",
+    github: "https://github.com/dhruvsaboo1805/Auth_Microservice_SpringBoot",
+    webapp: "https://github.com/dhruvsaboo1805/Auth_Microservice_SpringBoot",
+  },
+  {
+    id: 101,
+    title: "AirBnb Backend - Spring Boot",
+    date: "Dec 2025",
+    description:
+      "Full-featured AirBnb clone backend built with Spring Boot. Includes property listing management, booking system with availability checks, user authentication, pricing engine, and REST APIs for a complete rental marketplace.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/1200px-Airbnb_Logo_B%C3%A9lo.svg.png",
+    tags: ["Java", "Spring Boot", "Spring Security", "JPA", "MySQL", "REST API"],
+    category: "backend",
+    github: "https://github.com/dhruvsaboo1805/AirBnb-Backend-SpringBoot",
+    webapp: "https://github.com/dhruvsaboo1805/AirBnb-Backend-SpringBoot",
+  },
+  {
+    id: 102,
+    title: "Uber Backend - WebSockets",
+    date: "Dec 2024",
+    description:
+      "Real-time Uber-like ride-hailing backend powered by WebSockets for live driver-rider communication. Features real-time location tracking, ride matching algorithm, fare calculation, and push notifications using STOMP protocol over WebSockets.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Uber_logo_2018.svg/1280px-Uber_logo_2018.svg.png",
+    tags: ["Java", "Spring Boot", "WebSockets", "STOMP", "MySQL", "Real-time"],
+    category: "backend",
+    github: "https://github.com/dhruvsaboo1805/Uber-Backend-WebSockets",
+    webapp: "https://github.com/dhruvsaboo1805/Uber-Backend-WebSockets",
+  },
+  {
+    id: 103,
+    title: "Uber Backend - Spring Boot",
+    date: "Nov 2025 - Dec 2024",
+    description:
+      "Comprehensive Uber ride-hailing REST backend with Spring Boot. Implements driver-rider matching, ride lifecycle management (request → accept → ongoing → complete), payment integration, rating system, and geolocation-based driver discovery.",
+    image:
+      "https://logodownload.org/wp-content/uploads/2015/05/uber-logo-1.png",
+    tags: ["Java", "Spring Boot", "Spring JPA", "MySQL", "REST API", "Geolocation"],
+    category: "backend",
+    github: "https://github.com/dhruvsaboo1805/Uber_Backend_SpringBoot",
+    webapp: "https://github.com/dhruvsaboo1805/Uber_Backend_SpringBoot",
+  },
+  {
+    id: 104,
+    title: "Payment Wallet - SAGA Pattern",
+    date: "Sep 2025 - Oct 2025",
+    description:
+      "Distributed payment wallet system implementing the SAGA pattern for distributed transactions. Features sharded database architecture for horizontal scalability, eventual consistency guarantees, compensating transactions, and idempotent API design.",
+    image:
+      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&auto=format&fit=crop",
+    tags: ["Java", "Spring Boot", "SAGA Pattern", "Sharding", "Distributed Systems", "MySQL"],
+    category: "backend",
+    github: "https://github.com/dhruvsaboo1805/Payment_Wallet_Sharded_DB_SAGA_Pattern",
+    webapp: "https://github.com/dhruvsaboo1805/Payment_Wallet_Sharded_DB_SAGA_Pattern",
+  },
+  {
+    id: 105,
+    title: "Electricity Management - Spring Boot",
+    date: "Oct 2025",
+    description:
+      "Spring Boot based electricity management system for managing consumer connections, meter readings, bill generation, and payment tracking. Features admin dashboard APIs, automated billing cycles, and consumption analytics.",
+    image:
+      "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&auto=format&fit=crop",
+    tags: ["Java", "Spring Boot", "JPA", "MySQL", "REST API"],
+    category: "backend",
+    github: "https://github.com/dhruvsaboo1805/ElectricityManagement_SpringBoot",
+    webapp: "https://github.com/dhruvsaboo1805/ElectricityManagement_SpringBoot",
+  },
+  {
+    id: 106,
+    title: "Spring Boot Quora App",
+    date: "Aug 2025 - Sep 2025",
+    description:
+      "A Quora-like Q&A platform backend with Spring Boot. Features question posting, answer submission, upvote/downvote system, user follow/unfollow, topic-based filtering, full-text search, and notification system.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Quora_logo_2015.svg/1280px-Quora_logo_2015.svg.png",
+    tags: ["Java", "Spring Boot", "Spring Security", "JPA", "MySQL", "REST API"],
+    category: "backend",
+    github: "https://github.com/dhruvsaboo1805/Spring-Boot-Quora-App",
+    webapp: "https://github.com/dhruvsaboo1805/Spring-Boot-Quora-App",
+  },
+  {
+    id: 107,
+    title: "Ecommerce - Spring Boot",
+    date: "Jun 2025 - Jul 2025",
+    description:
+      "Full-featured ecommerce backend with Spring Boot covering product catalog management, shopping cart, order management, payment gateway integration, inventory tracking, and seller/buyer roles with JWT authentication.",
+    image:
+      "https://images.unsplash.com/photo-1556742111-a301076d9d18?w=800&auto=format&fit=crop",
+    tags: ["Java", "Spring Boot", "JPA", "MySQL", "JWT", "REST API"],
+    category: "backend",
+    github: "https://github.com/dhruvsaboo1805/Ecommerce-Springboot",
+    webapp: "https://github.com/dhruvsaboo1805/Ecommerce-Springboot",
+  },
+
+  {
     id: 9,
     title: "My Air Visual",
     date: "March 2024 - April 2024",
@@ -238,17 +354,17 @@ export const projects = [
       },
       {
         name: "Amaan Hussain",
-        img: "https://media.licdn.com/dms/image/D5603AQFvppbTgqfCmQ/profile-displayphoto-shrink_100_100/0/1678129590080?e=1724889600&v=beta&t=Gaf5BY8MpAaRFwfzJ1bMgTI1xRVnjwpChQJyEW3jzCI",
+        img: "https://ui-avatars.com/api/?name=Amaan+Hussain&background=0D8ABC&color=fff&size=200&bold=true",
         linkedin: "https://www.linkedin.com/in/hussainamaan87",
       },
       {
         name: "Aryan Gupta",
-        img: "https://media.licdn.com/dms/image/D5603AQFB69W0neZbqQ/profile-displayphoto-shrink_100_100/0/1713097504720?e=1724889600&v=beta&t=ADnzjSvVIVx5hupwMkMxajKtmYvVzMHgtYc9leLGKP4",
+        img: "https://ui-avatars.com/api/?name=Aryan+Gupta&background=6B48FF&color=fff&size=200&bold=true",
         linkedin: "https://www.linkedin.com/in/agaryan",
       },
       {
         name: "Akanksha Kumari",
-        img: "https://media.licdn.com/dms/image/D4D03AQF2wY79NAq3UQ/profile-displayphoto-shrink_400_400/0/1671196566915?e=1724889600&v=beta&t=j_GTLNQrTiq_2UmFaBONbzxw0HLa70GF9HTcoxLfClk",
+        img: "https://ui-avatars.com/api/?name=Akanksha+Kumari&background=E91E8C&color=fff&size=200&bold=true",
         linkedin: "https://www.linkedin.com/in/akanksha314",
       },
     ],
@@ -261,11 +377,11 @@ export const projects = [
       "Developed a full-stack web application , this project showcases a comprehensive React application featuring various sections such as Home, About Us, Services, Contact Us, and more. It also integrates email sending functionality via EmailJS and implements smooth navigation and scrolling animations for an enhanced user experience.",
     image:
       "https://i.ibb.co/Lh9JfRW/techy-software.png",
-    tags: ["React Js", "Email Js", "Redux" , "GSAP Animations"],
+    tags: ["React Js", "Email Js", "Redux", "GSAP Animations"],
     category: "web app",
     github: "https://github.com/dhruvsaboo1805/3-project-nexus",
     webapp: "https://3-project-nexus-techy-software.vercel.app/",
-   
+
   },
   {
     id: 1,
@@ -291,7 +407,7 @@ export const projects = [
       "This project enables us to select the objects which we have to buy and take them into cart section for furthur process",
     image:
       "https://i.ibb.co/TBr2wNP/sc.png",
-    tags: ["React Js" , "Tailwind-CSS"],
+    tags: ["React Js", "Tailwind-CSS"],
     category: "web app",
     github: "https://github.com/dhruvsaboo1805/shopping_Cart_WebApp",
     webapp: "https://shopping-cart-web-app.vercel.app/",
@@ -304,7 +420,7 @@ export const projects = [
       "My Discord bot serves as a convenient tool for calculating Air Quality Index (AQI) values for cities specified by users. By simply entering the name of a city, users can receive comprehensive data on AQI levels, including information such as pollutant concentrations and health implications. Furthermore, the bot provides tailored health advice based on the AQI value, offering insights into how current air quality may impact well-being. This feature enhances user awareness of environmental conditions and promotes healthier lifestyle choices in response to varying air quality levels.",
     image:
       "https://i.ibb.co/X4s7k9j/dis.png",
-    tags: ["AQI Api (from CPCB)" , "Node js",  "Express Js" , "Mongo DB" , "Discord API"],
+    tags: ["AQI Api (from CPCB)", "Node js", "Express Js", "Mongo DB", "Discord API"],
     category: "web app",
     github: "https://github.com/dhruvsaboo1805/Discord_Bot",
     webapp: "https://github.com/dhruvsaboo1805/Discord_Bot",
@@ -316,25 +432,13 @@ export const projects = [
     description:
       "In this Project we can generate random gifs and also can generate the gifs according to user need.",
     image:
-    "https://i.ibb.co/6N773WC/gif.png",
-    tags: ["React" , "GIF API"],
+      "https://i.ibb.co/6N773WC/gif.png",
+    tags: ["React", "GIF API"],
     category: "web app",
     github: "https://github.com/dhruvsaboo1805/Random_Gif_Generator_React?tab=readme-ov-file",
     webapp: "https://65f05ff36b9f6514867b8658--dulcet-raindrop-bdc12a.netlify.app/",
   },
-  {
-    id: 4,
-    title: "Study Notion Web App",
-    date: "June 2024 - Present",
-    description:
-      "This is Full Stack Project which I am working on Currently. It is basically a education platform website where the classes can be attended and viewed and multiple features is going to be implemented in this project",
-    image:
-      "https://i.ibb.co/zFw1szJ/study.png",
-    tags: ["React Js", "Node JS" , "Express JS" , "Mongo DB" , "API'S"],
-    category: "web app",
-    github: "https://github.com/dhruvsaboo1805/Study_Notion_App_React_UI",
-    webapp: "https://65ed9d0ac242b36061b7025d--aquamarine-macaron-b3bb20.netlify.app/",
-  },
+
   {
     id: 5,
     title: "Weather WebApp",
@@ -343,7 +447,7 @@ export const projects = [
       "In this Project we can seek the weather according the location given and by default your curre=nt loication weather will be seen with humidity precepetation and clouds data.",
     image:
       "https://i.ibb.co/zZSDNGP/w.png",
-    tags: ["HTML" , "Tailwind-CSS" , "Javascript" , "Open-Weather-Api"],
+    tags: ["HTML", "Tailwind-CSS", "Javascript", "Open-Weather-Api"],
     category: "web app",
     github: "https://github.com/dhruvsaboo1805/Weather_App",
     webapp: "https://65d8978e97da63f30890e0b2--elegant-concha-cd5cd4.netlify.app/",
@@ -356,24 +460,12 @@ export const projects = [
       "A simple clone of Discord website.",
     image:
       "https://i.ibb.co/7kDNMwX/discord.png",
-    tags: ["HTML" , "Tailwind-CSS" , "Javascript"],
+    tags: ["HTML", "Tailwind-CSS", "Javascript"],
     category: "web app",
     github: "https://github.com/dhruvsaboo1805/Discord_Clone",
     webapp: "https://discord-clone-one-peach.vercel.app/",
   },
-  {
-    id: 7,
-    title: "Razorpay Clone",
-    date: "April 2023",
-    description:
-      "A simple clone of Razorpay Website.",
-    image:
-      "https://fueler.io/storage/users/timeline_image/1694011517-s2z2rfbv4h6yydkb86nj.png",
-    tags:["HTML" , "Tailwind-CSS" , "Javascript"],
-    category: "web app",
-    github: "https://github.com/dhruvsaboo1805/Rozarpay-Clone",
-    webapp: "https://rozarpay-clone-web.vercel.app/",
-  },
+
   {
     id: 8,
     title: "IOT based Smart Home App",
@@ -382,7 +474,7 @@ export const projects = [
       "This is the Mobile App in Flutter which is connected through the IOT sensor and from this app we can switch on/off the devices connected.",
     image:
       "https://blockchainappmaker.com/wp-content/uploads/2022/01/smart-home-vector-3993909.png",
-    tags: ["Flutter" , "IOT" , "Sensors" , "Firebase"],
+    tags: ["Flutter", "IOT", "Sensors", "Firebase"],
     category: "android app",
     github: "https://github.com/dhruvsaboo1805/Smart_Home_App_Firebase_Arduino",
     webapp: "https://drive.google.com/file/d/1ucbbDAf-GHT0W3wzcR6dA2SzrVvNLf1V/view",
@@ -394,7 +486,7 @@ export const projects = [
       },
       {
         name: "Amaan Hussain",
-        img: "https://media.licdn.com/dms/image/D5603AQFvppbTgqfCmQ/profile-displayphoto-shrink_100_100/0/1678129590080?e=1724889600&v=beta&t=Gaf5BY8MpAaRFwfzJ1bMgTI1xRVnjwpChQJyEW3jzCI",
+        img: "https://ui-avatars.com/api/?name=Amaan+Hussain&background=0D8ABC&color=fff&size=200&bold=true",
         linkedin: "https://www.linkedin.com/in/hussainamaan87",
       },
     ],
@@ -407,7 +499,7 @@ export const projects = [
       " ’Kisaan Saathi ’ application offers comprehensive information on a wide range of crops, including planting, harvesting, and maintenance details. Small-scale farmers can access real-time data on market trends, commodity prices, and demand forecasts, helping them stay informed about the latest developments.Users will have access to valuable insights into government schemes and current regulations related to agriculture, ensuring they stay compliant with the latest policies. Our application provides up-to-date market news and in-depth analysis, enabling farmers to make informed decisions on crop choices and pricing negotiations.",
     image:
       "https://www.shutterstock.com/image-vector/farmer-hand-holding-smartphone-monitoring-260nw-1558262003.jpg",
-    tags: ["Flutter" , "Firebase"],
+    tags: ["Flutter", "Firebase"],
     category: "android app",
     github: "https://github.com/dhruvsaboo1805/NIT_BHOPAL_VERSION_BETA_6.0",
     webapp: "https://drive.google.com/file/d/1976528p6UXQ5CILj92sA0AJunV5sjm3E/view",
@@ -419,17 +511,17 @@ export const projects = [
       },
       {
         name: "Amaan Hussain",
-        img: "https://media.licdn.com/dms/image/D5603AQFvppbTgqfCmQ/profile-displayphoto-shrink_100_100/0/1678129590080?e=1724889600&v=beta&t=Gaf5BY8MpAaRFwfzJ1bMgTI1xRVnjwpChQJyEW3jzCI",
+        img: "https://ui-avatars.com/api/?name=Amaan+Hussain&background=0D8ABC&color=fff&size=200&bold=true",
         linkedin: "https://www.linkedin.com/in/hussainamaan87",
       },
       {
         name: "Aryan Gupta",
-        img: "https://media.licdn.com/dms/image/D5603AQFB69W0neZbqQ/profile-displayphoto-shrink_100_100/0/1713097504720?e=1724889600&v=beta&t=ADnzjSvVIVx5hupwMkMxajKtmYvVzMHgtYc9leLGKP4",
+        img: "https://ui-avatars.com/api/?name=Aryan+Gupta&background=6B48FF&color=fff&size=200&bold=true",
         linkedin: "https://www.linkedin.com/in/agaryan",
       },
       {
         name: "Aviral Gupta",
-        img: "https://media.licdn.com/dms/image/D4D03AQEbzlQYmkBrrQ/profile-displayphoto-shrink_400_400/0/1707052703275?e=1724889600&v=beta&t=nLeyywg2vJ-W6tt7lnjYOnGNIJ1GtFGdRaokiut9gpM",
+        img: "https://ui-avatars.com/api/?name=Aviral+Gupta&background=FF6B35&color=fff&size=200&bold=true",
         linkedin: "https://www.linkedin.com/in/guptaaviral",
       },
     ],
