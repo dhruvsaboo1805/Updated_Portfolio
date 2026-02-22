@@ -12,19 +12,6 @@ const Document = styled.img`
         opacity: 0.8;
     }
 `
-const DocumentButton = styled.button`
-    height: 70px;
-    width: fit-content;
-    background-color: #000;
-    color: #fff;
-    border-radius: 10px;
-    border: none;
-    padding: 10px;
-    &:hover{
-        cursor: pointer;
-        opacity: 0.8;
-    }
-`
 
 const Description = styled.div`
     width: 100%;
