@@ -1,9 +1,8 @@
 export const Bio = {
   name: "Dhruv Saboo",
   roles: [
-    "Full Stack Developer",
-    "UI/UX Designer",
-    "Programmer",
+    "Backend Developer",
+    "Software Engineer",
     "DSA Enthusiast",
   ],
   description:
@@ -12,9 +11,7 @@ export const Bio = {
   resume:
     "https://drive.google.com/file/d/1b6hTKYQAy_kRZxY_DyNEKShfiT2dM50G/view?usp=drivesdk",
   linkedin: "https://www.linkedin.com/in/dhruvsaboo1805",
-  twitter: "https://x.com/dsaboo456",
-  insta: "https://www.instagram.com/dhruv_saboo/",
-  facebook: "https://www.facebook.com/profile.php?id=100078300151497&mibextid=ZbWKwL",
+  insta: "https://www.instagram.com/dev_with_dhruv/",
 };
 
 export const skills = [
@@ -135,18 +132,21 @@ export const experiences = [
     role: "Software Engineer",
     company: "Tata Consultancy Services (TCS)",
     date: "Aug 2025 - Present",
-    desc: "Working as a Software Engineer at TCS on the Quartz Compliance project for NHCA. Involved in system design, backend development, and CI/CD pipeline management.",
+    desc: "Working as a Software Engineer at TCS on the Quartz Compliance project for a Swiss client. • End-to-End Development: Built the application and ledger system from scratch, managing 10+ microservices and third-party integrations. • Ledger Architecture: Engineered a comprehensive financial ledger system handling complex transaction flows across internal and external bank accounts. • High-Volume Scaling: Scaled application traffic from 10 to 1000+ daily requests using load balancers and server optimizations to ensure zero downtime. • System Gateway Optimization: Developed a critical middleware bridge to intercept, scan, and process heavy data loads before securely routing them to downstream systems. • CI/CD Pipeline Management: Streamlined deployment and managed UAT and Production environments using Jenkins and Docker containers. • 🏆 Award: Won the 'Best Performer of Q4 2025' award for outstanding contributions, technical delivery, and project execution.",
     skills: [
       "Java",
       "Spring Boot",
-      "JFrog",
+      "Docker",
       "Jenkins",
+      "Microservices",
       "System Design",
+      "Load Balancing",
+      "JFrog",
     ],
   },
   {
     id: 1,
-    img: "https://media.licdn.com/dms/image/D4E0BAQGTb_vAIr6U1A/company-logo_200_200/0/1714414031837/tryidoltechnologies_logo?e=2147483647&v=beta&t=5YBWSfckL0w4SOcETsvr3LSyv4UDw9HNw8B6i1D68PA",
+    img: "/images/companies/tryidol.png",
     role: "Web Developer Intern",
     company: "Tryidol Technologies",
     date: "May 2024 - Present",
@@ -161,8 +161,8 @@ export const experiences = [
     ],
   },
   {
-    id: 0,
-    img: "https://media.licdn.com/dms/image/D560BAQHbJ98jAoTBWw/company-logo_200_200/0/1705843409324/nexus_software_pvt_ltd_logo?e=2147483647&v=beta&t=iI2vHdi83aQ0RudljDp8osCtb7nVJnMBxvnyha7i_h0",
+    id: 2,
+    img: "/images/companies/nexus.png",
     role: "Web Developer Intern",
     company: "Nexus Info",
     date: "April 2024 - May 2024",
@@ -179,8 +179,8 @@ export const experiences = [
     ],
   },
   {
-    id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
+    id: 3,
+    img: "/images/companies/girlscript.png",
     role: "Open Source Contributor ",
     company: "GirlScript Summer of Code",
     date: "April 2024 - Present",
@@ -191,16 +191,16 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXrUJ1hS-t2fMQIIrNir3tE_nWlC3brryhKg&s",
+    img: "/images/education/lncts.png",
     school: "Lakshmi Narain College Of Technology & Science , Bhopal",
     date: "Oct 2021 - July 2025",
-    grade: "8.63 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Lakshmi Narain College Of Technology & Science , Bhopal. I have completed 6 semesters and have a CGPA of 8.63. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of different Tech related clubs in my college, where I am learning and working on exciting projects with a team of talented developers.",
+    grade: "8.75 C.G.P.A ( Batch Rank 4 )",
+    desc: "I completed my Bachelor's degree in Computer Science and Engineering at Lakshmi Narain College Of Technology & Science, Bhopal. I took courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. • Activities and societies: UXcelerate Club Member: Actively contributed to the enhancement of design skills in over 500 students through engaging activities. • Event Anchor & Host: Took an active role as an anchor in various college events, including fests and cultural functions. • Founder & Lead of Tech Club: Responsible for building a community of tech enthusiasts from the ground up and organized various coding contests.",
     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
   },
   {
     id: 1,
-    img: "https://www.schooldekho.org/storage/logo//il75l2bxl7488wco00gcokocwkw8kg0.jpg",
+    img: "/images/education/mvm_shahdol.png",
     school: "Maharshi Vidya Mandir, Shahdol",
     date: "Apr 2019 - Apr 2021",
     grade: "95.6%",
@@ -209,7 +209,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRisCMX8s9qfsD3yAfS7acIpDgVVzFu1oDZLg&s",
+    img: "/images/education/good_shepherd.png",
     school: "Good Shepherd Covent Sr. Sec. School , Shahdol",
     date: "Apr 2006 - Apr 2019",
     grade: "89.4%",
@@ -225,8 +225,7 @@ export const projects = [
     date: "Oct 2025 - Feb 2026",
     description:
       "A production-grade Authentication Microservice built with Spring Boot. Fully containerized with Docker for seamless deployment. Implements JWT-based authentication, role-based access control (RBAC), OAuth2 integration, and secure token refresh mechanisms. Docker Compose setup for running the entire stack locally.",
-    image:
-      "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?w=800&auto=format&fit=crop",
+    image: "/images/projects/auth_microservice.png",
     tags: ["Java", "Spring Boot", "JWT", "Spring Security", "Microservices", "Docker", "MySQL"],
     category: "backend",
     github: "https://github.com/dhruvsaboo1805/Auth_Microservice_SpringBoot",
@@ -238,8 +237,7 @@ export const projects = [
     date: "Dec 2025",
     description:
       "Full-featured AirBnb clone backend built with Spring Boot. Includes property listing management, booking system with availability checks, user authentication, pricing engine, and REST APIs for a complete rental marketplace.",
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/1200px-Airbnb_Logo_B%C3%A9lo.svg.png",
+    image: "/images/projects/airbnb.png",
     tags: ["Java", "Spring Boot", "Spring Security", "JPA", "MySQL", "REST API"],
     category: "backend",
     github: "https://github.com/dhruvsaboo1805/AirBnb-Backend-SpringBoot",
@@ -251,8 +249,7 @@ export const projects = [
     date: "Dec 2024",
     description:
       "Real-time Uber-like ride-hailing backend powered by WebSockets for live driver-rider communication. Features real-time location tracking, ride matching algorithm, fare calculation, and push notifications using STOMP protocol over WebSockets.",
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Uber_logo_2018.svg/1280px-Uber_logo_2018.svg.png",
+    image: "/images/projects/uber_ws.png",
     tags: ["Java", "Spring Boot", "WebSockets", "STOMP", "MySQL", "Real-time"],
     category: "backend",
     github: "https://github.com/dhruvsaboo1805/Uber-Backend-WebSockets",
@@ -264,8 +261,7 @@ export const projects = [
     date: "Nov 2025 - Dec 2024",
     description:
       "Comprehensive Uber ride-hailing REST backend with Spring Boot. Implements driver-rider matching, ride lifecycle management (request → accept → ongoing → complete), payment integration, rating system, and geolocation-based driver discovery.",
-    image:
-      "https://logodownload.org/wp-content/uploads/2015/05/uber-logo-1.png",
+    image: "/images/projects/uber_sb.png",
     tags: ["Java", "Spring Boot", "Spring JPA", "MySQL", "REST API", "Geolocation"],
     category: "backend",
     github: "https://github.com/dhruvsaboo1805/Uber_Backend_SpringBoot",
@@ -277,8 +273,7 @@ export const projects = [
     date: "Sep 2025 - Oct 2025",
     description:
       "Distributed payment wallet system implementing the SAGA pattern for distributed transactions. Features sharded database architecture for horizontal scalability, eventual consistency guarantees, compensating transactions, and idempotent API design.",
-    image:
-      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&auto=format&fit=crop",
+    image: "/images/projects/payment_wallet.png",
     tags: ["Java", "Spring Boot", "SAGA Pattern", "Sharding", "Distributed Systems", "MySQL"],
     category: "backend",
     github: "https://github.com/dhruvsaboo1805/Payment_Wallet_Sharded_DB_SAGA_Pattern",
@@ -290,8 +285,7 @@ export const projects = [
     date: "Oct 2025",
     description:
       "Spring Boot based electricity management system for managing consumer connections, meter readings, bill generation, and payment tracking. Features admin dashboard APIs, automated billing cycles, and consumption analytics.",
-    image:
-      "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&auto=format&fit=crop",
+    image: "/images/projects/electricity.png",
     tags: ["Java", "Spring Boot", "JPA", "MySQL", "REST API"],
     category: "backend",
     github: "https://github.com/dhruvsaboo1805/ElectricityManagement_SpringBoot",
@@ -303,8 +297,7 @@ export const projects = [
     date: "Aug 2025 - Sep 2025",
     description:
       "A Quora-like Q&A platform backend with Spring Boot. Features question posting, answer submission, upvote/downvote system, user follow/unfollow, topic-based filtering, full-text search, and notification system.",
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Quora_logo_2015.svg/1280px-Quora_logo_2015.svg.png",
+    image: "/images/projects/quora.svg",
     tags: ["Java", "Spring Boot", "Spring Security", "JPA", "MySQL", "REST API"],
     category: "backend",
     github: "https://github.com/dhruvsaboo1805/Spring-Boot-Quora-App",
@@ -316,8 +309,7 @@ export const projects = [
     date: "Jun 2025 - Jul 2025",
     description:
       "Full-featured ecommerce backend with Spring Boot covering product catalog management, shopping cart, order management, payment gateway integration, inventory tracking, and seller/buyer roles with JWT authentication.",
-    image:
-      "https://images.unsplash.com/photo-1556742111-a301076d9d18?w=800&auto=format&fit=crop",
+    image: "/images/projects/ecommerce.png",
     tags: ["Java", "Spring Boot", "JPA", "MySQL", "JWT", "REST API"],
     category: "backend",
     github: "https://github.com/dhruvsaboo1805/Ecommerce-Springboot",
@@ -330,8 +322,7 @@ export const projects = [
     date: "March 2024 - April 2024",
     description:
       "My Air Visual is a web application designed to streamline the information from several sources and lets you see and sort the data in different ways.The website aims to help people understand air quality and make informed choices to support cleaner air efforts.We have also developed a server from which all resources have been distributed like discord Bot and Arduino IOT Devices also.",
-    image:
-      "https://www.kaaiot.com/img/air-quality-management/macbook.png",
+    image: "/images/projects/air_visual.png",
     tags: [
       "React Js",
       "MongoDb",
@@ -349,7 +340,7 @@ export const projects = [
     member: [
       {
         name: "Dhruv Saboo",
-        img: "https://assets.leetcode.com/users/avatars/avatar_1684502960.png",
+        img: "/images/members/dhruv.png",
         linkedin: "https://www.linkedin.com/in/dhruvsaboo1805",
       },
       {
@@ -375,13 +366,11 @@ export const projects = [
     date: "Apr 2023 - May 2023",
     description:
       "Developed a full-stack web application , this project showcases a comprehensive React application featuring various sections such as Home, About Us, Services, Contact Us, and more. It also integrates email sending functionality via EmailJS and implements smooth navigation and scrolling animations for an enhanced user experience.",
-    image:
-      "https://i.ibb.co/Lh9JfRW/techy-software.png",
+    image: "/images/projects/techy_software.png",
     tags: ["React Js", "Email Js", "Redux", "GSAP Animations"],
     category: "web app",
     github: "https://github.com/dhruvsaboo1805/3-project-nexus",
     webapp: "https://3-project-nexus-techy-software.vercel.app/",
-
   },
   {
     id: 1,
@@ -389,8 +378,7 @@ export const projects = [
     date: "Jan 2024 - Feb 2024",
     description:
       "This food delivery web application is designed to provide users with a convenient and seamless experience when ordering food online. Built using React.js and Firebase authentication, the app offers a range of features to enhance the user experience and streamline the ordering process.",
-    image:
-      "https://i.ibb.co/LvmT0Tz/food.png",
+    image: "/images/projects/food_delivery.png",
     tags: [
       "React Js",
       "FireBase",
@@ -405,8 +393,7 @@ export const projects = [
     date: "Nov 2023",
     description:
       "This project enables us to select the objects which we have to buy and take them into cart section for furthur process",
-    image:
-      "https://i.ibb.co/TBr2wNP/sc.png",
+    image: "/images/projects/shopping_cart.png",
     tags: ["React Js", "Tailwind-CSS"],
     category: "web app",
     github: "https://github.com/dhruvsaboo1805/shopping_Cart_WebApp",
@@ -418,8 +405,7 @@ export const projects = [
     date: "Feb 2024 - March 2024",
     description:
       "My Discord bot serves as a convenient tool for calculating Air Quality Index (AQI) values for cities specified by users. By simply entering the name of a city, users can receive comprehensive data on AQI levels, including information such as pollutant concentrations and health implications. Furthermore, the bot provides tailored health advice based on the AQI value, offering insights into how current air quality may impact well-being. This feature enhances user awareness of environmental conditions and promotes healthier lifestyle choices in response to varying air quality levels.",
-    image:
-      "https://i.ibb.co/X4s7k9j/dis.png",
+    image: "/images/projects/discord_bot.png",
     tags: ["AQI Api (from CPCB)", "Node js", "Express Js", "Mongo DB", "Discord API"],
     category: "web app",
     github: "https://github.com/dhruvsaboo1805/Discord_Bot",
@@ -431,22 +417,19 @@ export const projects = [
     date: "Dec 2023",
     description:
       "In this Project we can generate random gifs and also can generate the gifs according to user need.",
-    image:
-      "https://i.ibb.co/6N773WC/gif.png",
+    image: "/images/projects/random_gif.png",
     tags: ["React", "GIF API"],
     category: "web app",
     github: "https://github.com/dhruvsaboo1805/Random_Gif_Generator_React?tab=readme-ov-file",
     webapp: "https://65f05ff36b9f6514867b8658--dulcet-raindrop-bdc12a.netlify.app/",
   },
-
   {
     id: 5,
     title: "Weather WebApp",
     date: "Jun 2023",
     description:
       "In this Project we can seek the weather according the location given and by default your curre=nt loication weather will be seen with humidity precepetation and clouds data.",
-    image:
-      "https://i.ibb.co/zZSDNGP/w.png",
+    image: "/images/projects/weather_app.png",
     tags: ["HTML", "Tailwind-CSS", "Javascript", "Open-Weather-Api"],
     category: "web app",
     github: "https://github.com/dhruvsaboo1805/Weather_App",
@@ -458,8 +441,7 @@ export const projects = [
     date: "July 2023",
     description:
       "A simple clone of Discord website.",
-    image:
-      "https://i.ibb.co/7kDNMwX/discord.png",
+    image: "/images/projects/discord_clone.png",
     tags: ["HTML", "Tailwind-CSS", "Javascript"],
     category: "web app",
     github: "https://github.com/dhruvsaboo1805/Discord_Clone",
@@ -472,8 +454,7 @@ export const projects = [
     date: "March 2023 - April 2023",
     description:
       "This is the Mobile App in Flutter which is connected through the IOT sensor and from this app we can switch on/off the devices connected.",
-    image:
-      "https://blockchainappmaker.com/wp-content/uploads/2022/01/smart-home-vector-3993909.png",
+    image: "/images/projects/smart_home.png",
     tags: ["Flutter", "IOT", "Sensors", "Firebase"],
     category: "android app",
     github: "https://github.com/dhruvsaboo1805/Smart_Home_App_Firebase_Arduino",
@@ -481,7 +462,7 @@ export const projects = [
     member: [
       {
         name: "Dhruv Saboo",
-        img: "https://assets.leetcode.com/users/avatars/avatar_1684502960.png",
+        img: "/images/members/dhruv.png",
         linkedin: "https://www.linkedin.com/in/dhruvsaboo1805",
       },
       {
@@ -497,8 +478,7 @@ export const projects = [
     date: "Oct 2023 - Nov 2023",
     description:
       " ’Kisaan Saathi ’ application offers comprehensive information on a wide range of crops, including planting, harvesting, and maintenance details. Small-scale farmers can access real-time data on market trends, commodity prices, and demand forecasts, helping them stay informed about the latest developments.Users will have access to valuable insights into government schemes and current regulations related to agriculture, ensuring they stay compliant with the latest policies. Our application provides up-to-date market news and in-depth analysis, enabling farmers to make informed decisions on crop choices and pricing negotiations.",
-    image:
-      "https://www.shutterstock.com/image-vector/farmer-hand-holding-smartphone-monitoring-260nw-1558262003.jpg",
+    image: "/images/projects/kisaan_saathi.png",
     tags: ["Flutter", "Firebase"],
     category: "android app",
     github: "https://github.com/dhruvsaboo1805/NIT_BHOPAL_VERSION_BETA_6.0",
@@ -506,7 +486,7 @@ export const projects = [
     member: [
       {
         name: "Dhruv Saboo",
-        img: "https://assets.leetcode.com/users/avatars/avatar_1684502960.png",
+        img: "/images/members/dhruv.png",
         linkedin: "https://www.linkedin.com/in/dhruvsaboo1805",
       },
       {
